@@ -8,19 +8,19 @@
 
 ## Installation <a name="installation"></a>
 
-There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
+The [mplleaflet](https://anaconda.org/IOOS/mplleaflet) package should be installed. The code should run with no issues using Python versions 3.*.
 
 ## Project Motivation<a name="motivation"></a>
 
-For this project, I was interestested in using Stack Overflow data from 2017 to better understand:
+For this project, I was interestested in using the 2016/2017 [Seattle](https://www.kaggle.com/airbnb/seattle/data) and [Boston](https://www.kaggle.com/airbnb/boston) Airbnb Data to better understand:
 
-1. How other developers suggested breaking into the field (what education to pursue)?
-2. What factors about an individual contributed to salary?
-3. How bias played a role in the suggestions of developers for how to break into the field?
-4. What was the state of bootcamps for assisting individuals with breaking into developer roles?
-5. How were bootcamps assisting with increasing diversity in tech careers?
-
-The full set of files related to this course are owned by Udacity, so they are not publicly available here.  However, you can see pieces of the analysis here.  This README also serves as a template for students to follow in creating their own project README files.
+1. Are superhosts able to charge more than regular hosts?
+2. Are superhosts better reviewed?
+3. How to be a great AirBnB host? Do certain host characteristics correlate with better reviews?
+4. Where are the most expensive properties located? Does that reflect the current real state prices of the neighbourhood?
+5. Are most expensive listings actually better reviewed?
+6. How does price fluctuate through the year?
+7. How do ammenities affect the price?
 
 
 ## File Descriptions <a name="files"></a>
@@ -31,9 +31,9 @@ There is an additional `.py` file that runs the necessary code to obtain the fin
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711).
+The main findings of the code can be found at the post available [here](tbd).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Must give credit to Stack Overflow for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/stackoverflow/so-survey-2017/data).  Otherwise, feel free to use the code here as you would like! 
+Must give credit to AirBnB for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/airbnb/seattle/data).  Otherwise, feel free to use the code here as you would like! 
 
