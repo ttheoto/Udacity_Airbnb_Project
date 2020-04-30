@@ -16,11 +16,10 @@ For this project, I was interestested in using the 2016/2017 [Seattle](https://w
 
 1. Are superhosts able to charge more than regular hosts?
 2. Are superhosts better reviewed?
-3. How to be a great AirBnB host? Do certain host characteristics correlate with better reviews?
-4. Where are the most expensive properties located? Does that reflect the current real state prices of the neighbourhood?
-5. Are most expensive listings actually better reviewed?
-6. How does price fluctuate through the year?
-7. How do ammenities affect the price?
+3. Where are the most expensive properties located? Does that reflect the current real state prices of the neighbourhood?
+4. Are most expensive listings actually better reviewed?
+5. How does price fluctuate through the year?
+6. How do ammenities affect the price?
 
 
 ## File Descriptions <a name="files"></a>
@@ -35,5 +34,11 @@ The main findings of the code can be found at the post available [here](tbd).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Must give credit to AirBnB for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/airbnb/seattle/data).  Otherwise, feel free to use the code here as you would like! 
+Must give credit to AirBnB for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/airbnb/seattle/data).  
+
+The Seattle Rent data belongs to RentCafé. You can find more information [here](https://www.rentcafe.com/average-rent-market-trends/us/wa/seattle/).
+
+The Map data was obtained via [Open Street Map](https://www.openstreetmap.org/). 
+
+Otherwise, feel free to use the code here as you would like! 
 
