@@ -14,12 +14,12 @@ The [mplleaflet](https://anaconda.org/IOOS/mplleaflet) package should be install
 
 For this project, I was interestested in using the 2016/2017 [Seattle](https://www.kaggle.com/airbnb/seattle/data) and [Boston](https://www.kaggle.com/airbnb/boston) Airbnb Data to better understand:
 
-1. Are superhosts able to charge more than regular hosts?
-2. Are superhosts better reviewed?
-3. Where are the most expensive properties located? Does that reflect the current real state prices of the neighbourhood?
-4. Are most expensive listings actually better reviewed?
-5. How does price fluctuate through the year?
-6. How do ammenities affect the price?
+* Are superhosts able to charge more than regular hosts?
+* Are superhosts better reviewed?
+* Where are the most expensive properties located? Does that reflect the current real state prices of the neighbourhood?
+* Are most expensive listings actually better reviewed?
+* How does price fluctuate through the year?
+* How do ammenities affect the price?
 
 
 ## File Descriptions <a name="files"></a>
