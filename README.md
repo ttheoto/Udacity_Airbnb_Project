@@ -40,5 +40,7 @@ The Seattle Rent data belongs to RentCafé. You can find more information [here]
 
 The Map data was obtained via [Open Street Map](https://www.openstreetmap.org/). 
 
+A special thanks goes out to [Kyoosik Kim](https://github.com/Q-shick/fundamentals_of_data_science/blob/master/mathematical%20_model/Ridge%20and%20Lasso.ipynb) for his insights on Ridge Regression.
+
 Otherwise, feel free to use the code here as you would like! 
 
