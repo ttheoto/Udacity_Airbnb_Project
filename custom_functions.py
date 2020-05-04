@@ -1,4 +1,9 @@
 # Functions required to run the Airbnb_Analysis Notebook
+import numpy
+import statistics
+from scipy import stats
+import matplotlib.pyplot as plt
+from matplotlib.ticker import PercentFormatter
 
 # Function to calculate proportion of all unique values in a column
 def get_prop(df, col):
@@ -101,7 +106,7 @@ def two_tail_t_test(reg_df, super_df, col, alpha):
     pool_var = (sum_squares_r + sum_squares_s)/deg_f
 
     # Corrected Standard Error
-    st_error = np.sqrt((pool_var/sample_r) + (pool_var/sample_s))
+    st_error = numpy.sqrt((pool_var/sample_r) + (pool_var/sample_s))
 
     # Calculating t-statistics
     t = (mean_sample_s - mean_sample_r)/st_error
@@ -143,12 +148,12 @@ def hist_generator(reg_df, super_df, col, size, max_range_99=False, percentil=Tr
                         int(reg_price.max()) + 1)
 
     # Defining bin size to optimize visualization
-    bin_size = list(np.arange(xmin, max_range + 1, size))
+    bin_size = list(numpy.arange(xmin, max_range + 1, size))
 
     # Defining weights for each distribution
     # that is, the basis for the percentage - samples have different sizes!
-    basis_super = np.ones(len(super_price)) / len(super_price)
-    basis_reg = np.ones(len(reg_price)) / len(reg_price)
+    basis_super = numpy.ones(len(super_price)) / len(super_price)
+    basis_reg = numpy.ones(len(reg_price)) / len(reg_price)
 
     # Plotting the histogram
     fig = plt.figure(figsize = (15,10))
@@ -159,7 +164,7 @@ def hist_generator(reg_df, super_df, col, size, max_range_99=False, percentil=Tr
     plt.legend(['Regular hosts', 'Superhosts']);
     plt.ylabel('Percentage of listings (%)');
     plt.xlabel(col.capitalize());
-    plt.xticks(list(np.arange(xmin, max_range, size)));
+    plt.xticks(list(numpy.arange(xmin, max_range, size)));
     plt.title(col.capitalize() + ': Superhosts vs. Regular hosts' );
     plt.grid(False);
 
@@ -212,7 +217,7 @@ def cummulative_hist(reg_df, super_df, col, size, max_range_99=False, xmin=0):
                         int(reg_price.max()) + 1)
     
     # Defining bin size to optimize visualization
-    bin_size = list(np.arange(xmin, max_range, size))
+    bin_size = list(numpy.arange(xmin, max_range, size))
 
     # Plotting the histogram
     fig = plt.figure(figsize = (15,10))
