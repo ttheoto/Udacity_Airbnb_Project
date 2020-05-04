@@ -31,7 +31,7 @@ Moreover, you will find the required datasets (*.csv) in this repository, as wel
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://medium.com/@t.theoto/how-to-be-a-successful-airbnb-host-insights-from-seattles-and-boston-s-listings-d980f86e3dda).
+The main findings of the code can be found on my Medium post available [here](https://medium.com/@t.theoto/how-to-be-a-successful-airbnb-host-insights-from-seattles-and-boston-s-listings-d980f86e3dda).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
