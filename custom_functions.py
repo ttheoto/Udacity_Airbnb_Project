@@ -10,7 +10,7 @@ def get_prop(df, col):
     '''
     INPUT:
     df - the pandas dataframe whose column has to be plotted
-    col - the column name to be plotted
+    col - str. The column name to be plotted
     
     OUTPUT:
     prop_df - pandas series with each unique value found on df[col]
@@ -77,8 +77,8 @@ def two_tail_t_test(reg_df, super_df, col, alpha):
     INPUT:
     reg_df - the first pandas dataframe to compare in a t-test
     super_df - the second pandas dataframe to compare in a t-test
-    col - the column name to be compared
-    size - how big should the bins in your histogram be
+    col - str. The column name to be compared
+    size - int or float. How big should the bins in your histogram be
     
     OUTPUT:
     Displays a double-histogram plot and the 25%, 50% and 75% percentiles 
@@ -123,12 +123,12 @@ def hist_generator(reg_df, super_df, col, size, max_range_99=False, percentil=Tr
     INPUT:
     reg_df - the first pandas dataframe whose column you want to plot
     super_df - the second pandas dataframe whose column you want to plot
-    col - the column name you want to plot
-    size - how big should the bins in your histogram be
-    max_range_99 - if true, sets the x-axis maximum value to the 99% quartile.
+    col - str. The column name you want to plot
+    size - int or float. How big should the bins in your histogram be
+    max_range_99 - boolean. If true, sets the x-axis maximum value to the 99% quartile.
                    Default is false to show all values.
-    percentil - True (default) to plot percentile values and axis
-    xmin - minimal x value on the plot. Zero as default.
+    percentil - boolean. True (default) to plot percentile values and axis
+    xmin - int or float. Minimal x value on the plot. Zero as default.
     
     OUTPUT:
     Displays a double-histogram plot and the 25%, 50% and 75% percentiles 
@@ -193,11 +193,11 @@ def cummulative_hist(reg_df, super_df, col, size, max_range_99=False, xmin=0):
     INPUT:
     reg_df - the first pandas dataframe whose column you want to plot
     super_df - the second pandas dataframe whose column you want to plot
-    col - the column name you want to plot
-    size - how big should the bins in your cummulative histogram be
-    max_range_99 - if true, sets the x-axis maximum value to the 99% quartile.
+    col - str. The column name you want to plot
+    size - int or float. How big should the bins in your cummulative histogram be
+    max_range_99 - boolean. If true, sets the x-axis maximum value to the 99% quartile.
                    Default is false to show all values.
-    xmin - minimal x value on the plot. Zero as default.
+    xmin - int or float. Minimal x value on the plot. Zero as default.
     
     OUTPUT:
     Displays a cummulative histogram plot for both data frames' column.
